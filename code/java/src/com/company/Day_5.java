@@ -12,8 +12,5 @@ public class Day_5 {
         } else {
             System.out.println("odd");
         }
-
-
-
     }
 }
