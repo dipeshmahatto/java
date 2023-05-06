@@ -29,9 +29,16 @@ public class Day_6_12 {
 //            System.out.println(b + " is the greater number than " + a);
 //
 //        Question - 4
-        int a=2,v=5,u=4,s=1;
-        int value = ((v*v) - (u*u))/2*a*s;
+//        int a=2,v=5,u=4,s=1;
+//        int value = ((v*v) - (u*u))/2*a*s;
 
-        System.out.println(value);
+//        System.out.println(value);
+
+
+//        Question- 5
+//        int x = 7;
+        int a = 7*79/7+35/7;
+        System.out.println(a);
+
     }
 }
