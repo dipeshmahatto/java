@@ -1,18 +1,20 @@
 package com.company;
+
 import java.util.Scanner;
+
 public class Day_8_26 {
     public static void main(String[] args) {
         Scanner m = new Scanner(System.in);
 
 
-        int []marks = new int[10];
+        int[] marks = new int[10];
         int i;
 
         System.out.println("Enter you array :");
-        for(i=0;i<10;i++){
-            marks[i]= m.nextInt();
+        for (i = 0; i < 10; i++) {
+            marks[i] = m.nextInt();
         }
-        for(i=0;i<10;i++){
+        for (i = 0; i < 10; i++) {
             System.out.println(marks[i]);
         }
 
