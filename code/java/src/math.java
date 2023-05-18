@@ -31,6 +31,7 @@ public class math {
         int x, y;
         switch (n) {
             case 1:
+//                Add
                 System.out.println("Enter the value of  x:");
                 x = s.nextInt();
                 System.out.println("Enter the value of  y");
@@ -40,6 +41,7 @@ public class math {
 
             case 2:
 
+//                Subtract
                 System.out.println("Enter the value of  x:");
                 x = s.nextInt();
                 System.out.println("Enter the value of  y");
@@ -48,6 +50,8 @@ public class math {
                 break;
 
             case 3:
+
+//                Multiply
                 System.out.println("Enter the value of  x:");
                 x = s.nextInt();
                 System.out.println("Enter the value of  y");
@@ -56,6 +60,8 @@ public class math {
                 break;
 
             case 4:
+
+//                Division
                 System.out.println("Enter the value of  x:");
                 x = s.nextInt();
                 System.out.println("Enter the value of  y");
