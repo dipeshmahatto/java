@@ -12,6 +12,7 @@ public class Day_3_6 {
         System.out.println("Enter your second subject mark:");
         float second = s.nextFloat();
 
+
         System.out.println("Enter your Third subject mark:");
         float Third = s.nextFloat();
 
