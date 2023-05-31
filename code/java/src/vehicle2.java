@@ -1,0 +1,2 @@
+public interface vehicle2 {
+}
