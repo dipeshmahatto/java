@@ -3,5 +3,11 @@ public class Test2 {
 //        Nested_class N = new Nested_class();
         Nested_class.B dis = new Nested_class.B();
         dis.display();
+
+
+//        Exception error
+//        String a = "jatin";
+//        int b = Integer.parseInt(a); // NumberFormatException
+//        System.out.println(b);
     }
 }
