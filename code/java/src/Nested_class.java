@@ -1,11 +1,12 @@
-class Nested_class {
-    static class B {
+
+    class B {
         public void display() {
             System.out.println("Printing B class !!!");
         }
     }
-
-    public static void main(String[] args) {
-
-    }
-}
+//    class Nested_class {
+//
+//    public static void main(String[] args) {
+//
+//    }
+//}
