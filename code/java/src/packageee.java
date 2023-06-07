@@ -1,5 +1,3 @@
-package lab.Assignment;
-
 import com.company.Sum;
 
 public class packageee {
