@@ -16,7 +16,7 @@ public class lab_9 {
 
     public static void main(String[] args) {
         lab_9 l = new lab_9();
-        l.setName("Dipesh",06);
+        l.setName("Dipesh", 06);
         l.getName();
     }
 }
