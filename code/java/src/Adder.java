@@ -1,5 +1,6 @@
 import javax.swing.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Adder implements ActionListener {
     JTextField tf1, tf2, tf3;
