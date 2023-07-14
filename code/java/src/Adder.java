@@ -4,7 +4,6 @@ import java.awt.event.*;
 public class Adder implements ActionListener {
     JTextField tf1, tf2, tf3;
     JButton b1;
-// Graphis
     Adder() {
         JFrame f = new JFrame();
         tf1 = new JTextField();
