@@ -1,11 +1,11 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class Adder implements ActionListener {
+public class Subtractor implements ActionListener {
     JTextField tf1, tf2, tf3;
     JButton b1;
 
-    Adder() {
+    Subtractor() {
         JFrame f = new JFrame();
         tf1 = new JTextField();
         tf1.setBounds(50, 50, 150, 20);
@@ -14,7 +14,7 @@ public class Adder implements ActionListener {
         tf3 = new JTextField();
         tf3.setBounds(50, 110, 150, 20);
         tf3.setEditable(false);
-        b1 = new JButton("add number");
+        b1 = new JButton("sub number");
         b1.setBounds(50, 140, 100, 30);
         b1.addActionListener(this);
         f.add(tf1);
@@ -29,11 +29,11 @@ public class Adder implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         int num1 = Integer.parseInt(tf1.getText());
         int num2 = Integer.parseInt(tf2.getText());
-        int sum = num1 + num2;
-        tf3.setText(String.valueOf(sum));
+        int sub = num1 - num2;
+        tf3.setText(String.valueOf(sub));
     }
 
     public static void main(String[] args) {
-        Adder a = new Adder();
+        Subtractor a = new Subtractor();
     }
 }
