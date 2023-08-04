@@ -330,7 +330,7 @@ public class Calculator implements ActionListener {
     }
 
     void close() {
-//        jf.dispose();
+        jf.dispose();
     }
 
     public static void main(String[] args) {
