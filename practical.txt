@@ -1,0 +1,5 @@
+16.Write a program to demonstrate operations on LinkedList.
+17.Write a program to demonstrate operations on Iterator.
+18.Write a program to demonstrate operations on Comparator.
+19.Write a program to demonstrate operations on Hashtable.
+20.Write a program to demonstrate operations on TreeMap.

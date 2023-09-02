@@ -1,4 +1,4 @@
-public class Testthrow {
+public class Testhrow {
     static void validate(int age) {
         try {
             if (age < 18) {
